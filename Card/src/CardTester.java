@@ -11,7 +11,7 @@
 public class CardTester {
     public static void main(String[] args)
     {
-        Card c1=new Card("Hearts",7);
+        Card c1=new Card("Hearts",8);
         c1.setSuit("Spades");
         System.out.println ("New suit is "+ c1.getSuit());
         
