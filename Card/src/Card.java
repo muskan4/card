@@ -14,6 +14,26 @@ public class Card {
     //Hearts,Spades,Diamonds,Clubs
 
         private int value;
+    private boolean parttime;
+
+    /**
+     * Get the value of parttime
+     *
+     * @return the value of parttime
+     */
+    public boolean isParttime() {
+        return parttime;
+    }
+
+    /**
+     * Set the value of parttime
+     *
+     * @param parttime new value of parttime
+     */
+    public void setParttime(boolean parttime) {
+        this.parttime = parttime;
+    }
+
         
         public Card(String givenSuit,int givenValue)
         {
