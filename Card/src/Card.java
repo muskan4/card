@@ -40,7 +40,7 @@ public class Card {
     }
 
     public void setValue(int value) {
-        if(value<1 || value>13)
+        if(value<1 || value>12)
         {
             System.out.println("Not in range 1-13");
         }
